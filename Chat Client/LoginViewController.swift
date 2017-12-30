@@ -39,10 +39,6 @@ class LoginViewController: UIViewController {
                 print(errorString!);
                 if self.emailTextField.text == ""{
                 
-                
-                
-            
-            
                     let alertController = UIAlertController(title: "Email required", message: errorString as String!, preferredStyle: .alert)
                     
                     let OKAction = UIAlertAction(title: "OK", style: .default) { (action) in
